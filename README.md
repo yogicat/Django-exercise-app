@@ -38,7 +38,7 @@ WIP 장고 연습 프로젝트
 
 `$ source venv/bin/activate`- 가상환경을 활성화 한다.
 
-`$ pip install -r requirements.txt` - 필요한 패키지를 설치한다.
+`$ pip install <package name>` - 필요한 패키지를 설치한다.
 
 `$ deactivate` - 가상환경 비활성화
 
