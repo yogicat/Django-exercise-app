@@ -2,6 +2,7 @@
 
 WIP 장고 연습 프로젝트
 
+---
 
 ## Requirements
 
@@ -14,12 +15,14 @@ WIP 장고 연습 프로젝트
 - urllib3==1.24.1
 
 
+---
+
 ## 가상환경 세팅
 
 `virtualenv`를 이용해 가상환경을 세팅한다.
 
 
-### Virtualenv 설치하기
+### virtualenv 설치하기
 
 `pip3 install virtualenv[==x.x.x]`
 
@@ -57,7 +60,7 @@ INSTALLED_APPS = [
 
 **Django**
 
-파이썬으로 만들어진 웹 프레임워크로
+파이썬으로 만들어진 웹 프레임워크
 
 **Django-extensions**
 
@@ -83,9 +86,7 @@ def test_answer():
     assert func(3) == 5
 ```
 
-```py
-$ pytest # 테스트 실행
-```
+`$ pytest` # 테스트 실행
 
 **requests**
 
